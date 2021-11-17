@@ -1,3 +1,4 @@
+
 .user-name{
   font-family: "Poppins", sans-serif;
 }
@@ -16,7 +17,7 @@
 
 .movie-poster{
   height: 500px;
-  width: 340px;
+  width: 305px;
   object-fit: cover;
 }
 
@@ -41,7 +42,6 @@
 }
 
 body{
-  margin: 20px;
   font-family: "Poppins", sans-serif;
 }
 
@@ -71,4 +71,58 @@ body{
   display: flex;
   gap: 10px;
   flex-direction: column;
+}
+
+nav{
+  font-size: 24px;
+  display: flex;
+  gap: 24px;
+  margin: 20px;
+}
+nav a{
+  background-color: transparent;
+  text-decoration: none;
+}
+
+.not-found-image{
+  width: 100%;
+  object-fit: cover;
+  
+}
+.not-found-container{
+  text-align: center;
+  color: teal;
+}
+
+.movie-detail-container{
+  padding: 24px;
+  max-width: 640px;
+}
+
+
+
+.game-box{
+  background-color: white;
+  color: black;
+  height: 8rem;
+  width: 8rem;
+  font-size: 8rem;
+  line-height: 8rem;
+  text-align: center;
+  border: 2px solid black;
+  cursor: pointer;
+}
+
+.board{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  width: min-content;
+}
+
+.full-game{
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
 }
